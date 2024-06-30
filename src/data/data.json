@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "titulo": "Vino Tinto Malbec",
+        "descripcion": "Vino tinto de excelente calidad, cosecha 2020.",
+        "categoria": "Vinos",
+        "imagen": "https://i5.walmartimages.com/seo/Don-Miguel-Gascon-Malbec-Red-Wine-750ml-Bottle_3d1f9a33-4f1a-4796-bcee-9c7583abb046.e2a82a18bd3d63e65a00a0e7845d9c75.png?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+        "precio": 10000,
+        "stock": 10
+    },
+    {
+        "id": 2,
+        "titulo": "Vino Blanco Chardonnay",
+        "descripcion": "Vino blanco fresco y afrutado, ideal para mariscos.",
+        "categoria": "Vinos",
+        "imagen": "https://i5.walmartimages.com/seo/Chloe-Chardonnay-California-White-Wine-750-ml-Bottle-13-ABV_d9adc204-e9a7-4b5f-ae8e-4b809e863b80_1.ee38c46b5e65d45635ef16d64520562c.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+        "precio": 0,
+        "stock": 10
+    },
+    {
+        "id": 3,
+        "titulo": "Espumante Brut",
+        "descripcion": "Espumante de burbujas finas y sabor delicado.",
+        "categoria": "Espumantes",
+        "imagen": "https://i5.walmartimages.com/seo/Don-Miguel-Gascon-Malbec-Red-Wine-750ml-Bottle_3d1f9a33-4f1a-4796-bcee-9c7583abb046.e2a82a18bd3d63e65a00a0e7845d9c75.png?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+        "precio": 6000,
+        "stock": 10
+    },
+    {
+        "id": 4,
+        "titulo": "Cerveza Artesanal IPA",
+        "descripcion": "Cerveza artesanal con notas cítricas y amargas.",
+        "categoria": "Cervezas",
+        "imagen": "https://www.dougalls.es/ext/r/600x894-1997/cerveza-dougalls-botella-ipa-4-02.webp",
+        "precio": 4000,
+        "stock": 10
+    },
+    {
+        "id": 5,
+        "titulo": "Whisky Single Malt",
+        "descripcion": "Whisky de malta única con 12 años de añejamiento.",
+        "categoria": "Licores",
+        "imagen": "https://www.drinkology.de/media/image/a0/18/61/whisky-glenfiddich-5793_600x600.jpg",
+        "precio": 2000,
+        "stock": 10
+    },
+    {
+        "id": 6,
+        "titulo": "Vodka Premium",
+        "descripcion": "Vodka de alta pureza, destilado cinco veces.",
+        "categoria": "Licores",
+        "imagen": "https://polishspirits.eu/wp-content/uploads/2014/04/SuperPreiumGold-1ltr-HiRes.jpg",
+        "precio": 15000,
+        "stock": 10
+    },
+    {
+        "id": 7,
+        "titulo": "Ron Añejo",
+        "descripcion": "Ron oscuro envejecido en barricas de roble.",
+        "categoria": "Licores",
+        "imagen": "https://resources.claroshop.com/medios-plazavip/s2/10643/1322094/5e4486b45be9b-bacardi-anejo-750ml-1600x1600.jpg?scale=700&qlty=80",
+        "precio": 1000,
+        "stock": 10
+    },
+    {
+        "id": 8,
+        "titulo": "Tequila Blanco",
+        "descripcion": "Tequila puro de agave, perfecto para cócteles.",
+        "categoria": "Licores",
+        "imagen": "https://resources.claroshop.com/medios-plazavip/s2/10643/1321247/5e447d80686bf-40123933_palaciodehierro_tequiladonjulioblanc0700_donjulio_vista_1-1600x1600.jpg?scale=700&qlty=80",
+        "precio": 5000,
+        "stock": 10
+    },
+    {
+        "id": 9,
+        "titulo": "Gin London Dry",
+        "descripcion": "Gin clásico con aroma a enebro y cítricos.",
+        "categoria": "Licores",
+        "imagen": "https://cdn.shopify.com/s/files/1/0650/4356/2708/products/27739.jpg?v=1669820420&width=500&height=899",
+        "precio": 10000,
+        "stock": 10
+    }
+]

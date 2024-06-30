@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #8b4513; /* Color de fondo */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.logo h1 {
+  color: #ecf0f1; /* Color del texto del logo */
+  margin: 0;
+}
+
+.menu {
+  list-style: none; /* Elimina los puntos de la lista */
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-left: 40px;
+}
+
+.menu-link {
+  color: #ecf0f1; /* Color de los enlaces */
+  text-decoration: none; /* Elimina el subrayado */
+  font-size: 16px; /* Tamaño de fuente */
+  transition: color 0.3s ease; /* Transición suave al cambiar de color */
+}
+
+.menu-link:hover {
+  color: #0e0f0f; /* Color al pasar el mouse */
+}
