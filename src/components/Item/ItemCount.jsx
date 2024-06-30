@@ -1,18 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 
-function ItemCount({ item }) {
-  const [cantidad, setCantidad] = useState(0);
-
-  const handleRestar = () => {
-    cantidad && setCantidad(cantidad - 1);
-  };
-
-  const handleSumar = () => {
-    cantidad < item.stock
-      ? setCantidad(cantidad + 1)
-      : alert("Stock insuficiente");
-  };
-
+function ItemCount({ cantidad, handleSumar, handleRestar, handleAgregar }) {
   return (
     <>
       <div className="item-count">
@@ -20,7 +8,9 @@ function ItemCount({ item }) {
         <h4>{cantidad}</h4>
         <button onClick={handleSumar}>+</button>
       </div>
-      <button className="agregar-al-carrito">Agregar al carrito</button>
+      <button className="agregar-al-carrito" onClick={handleAgregar}>
+        Agregar al carrito
+      </button>
     </>
   );
 }

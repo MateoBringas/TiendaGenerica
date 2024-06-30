@@ -1,9 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import "./ItemDetail.css";
-import { Link } from "react-router-dom";
 import ItemCount from "./ItemCount";
 
 function ItemDetail({ item }) {
+  const [cantidad, setCantidad] = useState(1);
+
+  const handleRestar = () => {
+    cantidad && setCantidad(cantidad - 1);
+  };
+
+  const handleSumar = () => {
+    cantidad < item.stock
+      ? setCantidad(cantidad + 1)
+      : alert("Stock insuficiente");
+  };
+
+  const handleAgregar = () => {};
+
   return (
     <div className="container">
       <div className="producto-detalle">
@@ -15,8 +28,13 @@ function ItemDetail({ item }) {
             <h3 className="titulo">{item.titulo}</h3>
             <p className="descripcion">{item.descripcion}</p>
             <p className="categoria">Categoría: {item.categoria}</p>
-            <h3 className="precio">Precio: ${item.precio}</h3>
-            <ItemCount item={item} />
+            <h2 className="precio">Precio: ${item.precio}</h2>
+            <p>Stock Disponible: {item.stock}</p>
+            <ItemCount
+              cantidad={cantidad}
+              handleRestar={handleRestar}
+              handleSumar={handleSumar}
+            />
           </div>
         </div>
       </div>
