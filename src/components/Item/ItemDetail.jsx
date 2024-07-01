@@ -15,7 +15,9 @@ function ItemDetail({ item }) {
       : alert("Stock insuficiente");
   };
 
-  const handleAgregar = () => {};
+  const handleAgregar = () => {
+    ({ ...item, cantidad });
+  };
 
   return (
     <div className="container">
@@ -34,6 +36,7 @@ function ItemDetail({ item }) {
               cantidad={cantidad}
               handleRestar={handleRestar}
               handleSumar={handleSumar}
+              handleAgregar={handleAgregar}
             />
           </div>
         </div>
