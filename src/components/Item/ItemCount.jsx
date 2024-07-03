@@ -1,6 +1,6 @@
 import React from "react";
 
-function ItemCount({ cantidad, handleSumar, handleRestar, handleAgregar }) {
+function ItemCount({ cantidad, handleSumar, handleRestar }) {
   return (
     <>
       <div className="item-count">
@@ -8,9 +8,7 @@ function ItemCount({ cantidad, handleSumar, handleRestar, handleAgregar }) {
         <h4>{cantidad}</h4>
         <button onClick={handleSumar}>+</button>
       </div>
-      <button className="agregar-al-carrito" onClick={handleAgregar}>
-        Agregar al carrito
-      </button>
+      <button className="agregar-al-carrito">Agregar al carrito</button>
     </>
   );
 }

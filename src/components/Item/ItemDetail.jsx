@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./ItemDetail.css";
 import ItemCount from "./ItemCount";
 
 function ItemDetail({ item }) {
@@ -13,10 +12,6 @@ function ItemDetail({ item }) {
     cantidad < item.stock
       ? setCantidad(cantidad + 1)
       : alert("Stock insuficiente");
-  };
-
-  const handleAgregar = () => {
-    ({ ...item, cantidad });
   };
 
   return (
@@ -36,7 +31,6 @@ function ItemDetail({ item }) {
               cantidad={cantidad}
               handleRestar={handleRestar}
               handleSumar={handleSumar}
-              handleAgregar={handleAgregar}
             />
           </div>
         </div>
