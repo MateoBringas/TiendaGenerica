@@ -1,4 +1,5 @@
 import React from "react";
+import "../../main.css";
 
 function ItemCount({ cantidad, handleSumar, handleRestar }) {
   return (

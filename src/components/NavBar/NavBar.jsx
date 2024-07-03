@@ -38,28 +38,33 @@ export default function NavBar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/productos/vinos">
+              <Link className="nav-link" to="/productos/Vinos">
                 Vinos
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/productos/licores">
+              <Link className="nav-link" to="/productos/Licores">
                 Licores
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/productos/cervezas">
+              <Link className="nav-link" to="/productos/Cervezas">
                 Cervezas
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/productos/espumantes">
+              <Link className="nav-link" to="/productos/Espumantes">
                 Espumantes
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/contacto">
                 Contacto
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/administrador">
+                Administrador
               </Link>
             </li>
           </ul>

@@ -6,9 +6,11 @@ const ItemList = ({ productos, titulo }) => {
     <>
       <h2 className="main-title">{titulo}</h2>
       <div className="container">
-        <div className="productos">
+        <div className="row">
           {productos.map((producto) => (
-            <Item producto={producto} key={producto.id} />
+            <div className="col-xl-3 col-lg-4 col-md-5 mb-4" key={producto.id}>
+              <Item producto={producto} />
+            </div>
           ))}
         </div>
       </div>

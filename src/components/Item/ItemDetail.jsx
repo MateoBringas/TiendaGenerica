@@ -15,23 +15,33 @@ function ItemDetail({ item }) {
   };
 
   return (
-    <div className="container">
-      <div className="producto-detalle">
-        <div className="imagen">
-          <img src={item.imagen} alt={item.titulo} />
-        </div>
-        <div className="contenido">
-          <div className="info">
-            <h3 className="titulo">{item.titulo}</h3>
-            <p className="descripcion">{item.descripcion}</p>
-            <p className="categoria">Categoría: {item.categoria}</p>
-            <h2 className="precio">Precio: ${item.precio}</h2>
-            <p>Stock Disponible: {item.stock}</p>
-            <ItemCount
-              cantidad={cantidad}
-              handleRestar={handleRestar}
-              handleSumar={handleSumar}
+    <div className="container mt-5">
+      <div className="card mb-3">
+        <div className="row g-0">
+          <div className="col-md-4">
+            <img
+              src={item.imagen}
+              className="img-fluid rounded-start"
+              alt={item.titulo}
             />
+          </div>
+          <div className="col-md-8">
+            <div className="card-body">
+              <h5 className="card-title">{item.titulo}</h5>
+              <p className="card-text">{item.descripcion}</p>
+              <p className="card-text">
+                <small className="text-muted">
+                  Categoría: {item.categoria}
+                </small>
+              </p>
+              <h2 className="card-text">Precio: ${item.precio}</h2>
+              <p className="card-text">Stock Disponible: {item.stock}</p>
+              <ItemCount
+                cantidad={cantidad}
+                handleRestar={handleRestar}
+                handleSumar={handleSumar}
+              />
+            </div>
           </div>
         </div>
       </div>

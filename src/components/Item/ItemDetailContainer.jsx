@@ -13,7 +13,7 @@ function ItemDetailContainer() {
     });
   }, []);
 
-  return <div>{item && <ItemDetail item={item} />}</div>;
+  return <>{item && <ItemDetail item={item} />}</>;
 }
 
 export default ItemDetailContainer;

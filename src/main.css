@@ -1,3 +1,67 @@
 .bg-custom {
   background-color: #d2b48c;
 }
+
+.card {
+  display: flex; /* Utilizar flexbox para centrar la imagen verticalmente */
+  flex-direction: column; /* Dirección de columna para alinear contenido verticalmente */
+  justify-content: center; /* Centrar verticalmente el contenido */
+}
+
+.card-img-top {
+  max-width: 100%; /* La imagen no será más ancha que su contenedor */
+  height: 50%; /* La imagen ocupará el 50% del alto del contenedor */
+  object-fit: contain; /* Mantener las proporciones de la imagen sin distorsión */
+}
+
+.btn {
+  width: 100%;
+}
+
+.main-title {
+  font-size: 35px;
+  text-align: center;
+  padding: 20px;
+}
+
+.item-count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.item-count button {
+  padding: 5px 15px;
+  font-size: 1rem;
+  border: none;
+  background-color: #d2b48c;
+  color: #000000;
+  cursor: pointer;
+  min-width: 41px;
+  text-align: center;
+}
+
+.item-count button:hover {
+  background-color: #c7a272;
+}
+
+.item-count h4 {
+  margin: 0 10px;
+  font-size: 1.2rem;
+}
+
+.agregar-al-carrito {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1.2rem;
+  background-color: #d2b48c;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.agregar-al-carrito:hover {
+  background-color: #c7a272;
+}
